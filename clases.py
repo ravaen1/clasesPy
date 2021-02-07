@@ -3,6 +3,7 @@ class Carro():
     ancho = 6
     enMarcha = False
     ruedas = 4
+    marca = "honda"
 
     def arrancar (self):
         pass
@@ -10,5 +11,7 @@ class Carro():
 
 miCarro = Carro()
 
-print(miCarro.largo)
+print("el largo del carro es ",miCarro.largo)
+
+print("la marca del carro es ",miCarro.marca)
 
